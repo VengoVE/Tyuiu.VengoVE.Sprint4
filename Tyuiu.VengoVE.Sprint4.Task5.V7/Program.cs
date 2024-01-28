@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using Tyuiu.VengoVE.Sprint4.Task4.V9.Lib;
+using Tyuiu.VengoVE.Sprint4.Task5.V7.Lib;
 
-namespace Tyuiu.VengoVE.Sprint4.Task4.V9
+namespace Tyuiu.VengoVE.Sprint4.Task5.V7
 {
     class Program
     {
@@ -17,15 +17,15 @@ namespace Tyuiu.VengoVE.Sprint4.Task4.V9
             Console.Title = "Спринт #4 | Выполнил: Вэнго В. Э. | ИСПб-23-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #4                                                               *");
-            Console.WriteLine("* Тема: Двумерные массивы. (ввод с клавиатуры)                            *");
-            Console.WriteLine("* Задание #4                                                              *");
-            Console.WriteLine("* Вариант #9                                                              *");
+            Console.WriteLine("* Тема: Двумерные массивы. (генератор случайных чисел)                    *");
+            Console.WriteLine("* Задание #5                                                              *");
+            Console.WriteLine("* Вариант #7                                                              *");
             Console.WriteLine("* Выполнил: Вэнго В. Э. | ИСПб-23-1                                       *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
             Console.WriteLine("* Дан двумерный целочисленный массив 5 на 5 элементов, заполненный        *");
-            Console.WriteLine("* значениями в диапазоне от 1 до 8.                                       *");
-            Console.WriteLine("* Найдите сумму четных элементов массива.                                 *");
+            Console.WriteLine("* значениями в диапазоне от -7 до 7                                       *");
+            Console.WriteLine("* Найти количество отрицательных элементов.                               *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
@@ -57,14 +57,37 @@ namespace Tyuiu.VengoVE.Sprint4.Task4.V9
                 }
                 Console.WriteLine();
             }
+
+            int[,] array = new int[5, 5];
+            Random random = new Random();
+
+            for (int i = 0; i < 5; i++)
+            {
+                for (int j = 0; j < 5; j++)
+                {
+                    array[i, j] = random.Next(-7, 8);
+                }
+            }
+            int negativeCount = 0;
+
+            for (int i = 0; i < 5; i++)
+            {
+                for (int j = 0; j < 5; j++)
+                {
+                    if (array[i, j] < 0)
+                    {
+                        negativeCount++;
+                    }
+                }
+            }
             Console.WriteLine();
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            int res = ds.Calculate(mrtx);
+            int res = ds.Calculate(array);
 
-            Console.WriteLine("Сумма четных элементов массива = " + res);
+            Console.WriteLine("Количество отрицательных элементов = " + res);
             Console.ReadKey();
         }
     }
