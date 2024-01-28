@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using Tyuiu.VengoVE.Sprint4.Task2.V12.Lib;
+using Tyuiu.VengoVE.Sprint4.Task2.V22.Lib;
 
-namespace Tyuiu.VengoVE.Sprint4.Task2.V12
+namespace Tyuiu.VengoVE.Sprint4.Task2.V22
 {
     class Program
     {
@@ -18,8 +18,8 @@ namespace Tyuiu.VengoVE.Sprint4.Task2.V12
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #4                                                               *");
             Console.WriteLine("* Тема: Одномерные массивы. (генератор случайных чисел)                   *");
-            Console.WriteLine("* Задание #1                                                              *");
-            Console.WriteLine("* Вариант #18                                                             *");
+            Console.WriteLine("* Задание #2                                                              *");
+            Console.WriteLine("* Вариант #22                                                             *");
             Console.WriteLine("* Выполнил: Вэнго В. Э. | ИСПб-23-1                                       *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");

@@ -21,11 +21,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.VengoVE.Sprint4.Task1
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task2", "Task2", "{C4A75B5B-B5D1-4F9E-9B09-3F0DBAE0F53E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.VengoVE.Sprint4.Task2.V12", "Tyuiu.VengoVE.Sprint4.Task2.V12\Tyuiu.VengoVE.Sprint4.Task2.V12.csproj", "{0BB659D0-0998-4F9B-A5EF-CDD2EA04FEDA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.VengoVE.Sprint4.Task2.V22", "Tyuiu.VengoVE.Sprint4.Task2.V12\Tyuiu.VengoVE.Sprint4.Task2.V22.csproj", "{0BB659D0-0998-4F9B-A5EF-CDD2EA04FEDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.VengoVE.Sprint4.Task2.V12.Lib", "Tyuiu.VengoVE.Sprint4.Task2.V12.Lib\Tyuiu.VengoVE.Sprint4.Task2.V12.Lib.csproj", "{9E414732-FC89-433F-B68A-A80D9A9F816B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.VengoVE.Sprint4.Task2.V22.Lib", "Tyuiu.VengoVE.Sprint4.Task2.V12.Lib\Tyuiu.VengoVE.Sprint4.Task2.V22.Lib.csproj", "{9E414732-FC89-433F-B68A-A80D9A9F816B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.VengoVE.Sprint4.Task2.V12.Test", "Tyuiu.VengoVE.Sprint4.Task2.V12.Test\Tyuiu.VengoVE.Sprint4.Task2.V12.Test.csproj", "{282DAE25-B75D-4CA8-BAC4-9618B5AFE359}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.VengoVE.Sprint4.Task2.V22.Test", "Tyuiu.VengoVE.Sprint4.Task2.V12.Test\Tyuiu.VengoVE.Sprint4.Task2.V22.Test.csproj", "{282DAE25-B75D-4CA8-BAC4-9618B5AFE359}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task3", "Task3", "{99DF02F0-3446-4FD4-8FDC-C3D57F2D77BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
